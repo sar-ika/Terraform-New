@@ -19,5 +19,5 @@ variable "keyname" {
 
 variable "sandboxes" {
   type    = list(string)
-  default = ["dev","test","prod"]
+  default = ["test","prod"]
 }
